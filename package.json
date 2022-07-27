@@ -1,31 +1,23 @@
 {
-  "name": "react-native-signature-pad",
-  "version": "1.0.0",
+  "name": "@getstep/react-native-signature-pad",
+  "repository": "git://github.com/getstep/react-native-signature-pad.git",
+  "version": "1.0.5",
   "description": "React Native wrapper around szimek's Canvas based Signature Pad",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/friedolinfoerder/react-native-signature-pad.git"
+  "publishConfig": {
+    "name": "@getstep/react-native-signature-pad",
+    "registry": "https://npm.pkg.github.com"
   },
+  "packageManager": "yarn@3.2.1",
   "keywords": [
-    "react-native",
-    "react-component",
-    "ios",
-    "android",
-    "signature",
-    "pad",
-    "signaturepad",
-    "canvas"
+    "react-native"
   ],
   "author": "Friedolin Förder",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/friedolinfoerder/react-native-signature-pad/issues"
-  },
-  "homepage": "https://github.com/friedolinfoerder/react-native-signature-pad#readme",
   "peerDependencies": {
     "react": "^16.8.4",
     "react-native": "^0.58.6",
